@@ -1,0 +1,75 @@
+{
+  "baseUrl": "http://localhost:4186",
+  "viewport": {
+    "width": 1280,
+    "height": 1000
+  },
+  "states": [
+    {
+      "name": "normal",
+      "url": "http://localhost:4186/?state=normal",
+      "file": "shots/normal.png",
+      "barLabels": [
+        "待认证",
+        "已认证",
+        "有效",
+        "临期",
+        "已过期",
+        "已流失",
+        "0",
+        "10",
+        "20",
+        "30",
+        "40",
+        "50",
+        "60",
+        "70",
+        "8 家",
+        "10 家",
+        "64 家",
+        "6 家",
+        "7 家",
+        "5 家"
+      ],
+      "kpiValues": [
+        "87",
+        "64",
+        "9",
+        "5"
+      ],
+      "documentHeight": 1000,
+      "consoleErrors": []
+    },
+    {
+      "name": "empty",
+      "url": "http://localhost:4186/?state=empty",
+      "file": "shots/empty.png",
+      "barLabels": [
+        "暂无会员企业数据",
+        "待认证",
+        "已认证",
+        "有效",
+        "临期",
+        "已过期",
+        "已流失"
+      ],
+      "kpiValues": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "documentHeight": 1000,
+      "consoleErrors": []
+    },
+    {
+      "name": "error",
+      "url": "http://localhost:4186/?state=error",
+      "file": "shots/error.png",
+      "barLabels": [],
+      "kpiValues": [],
+      "documentHeight": 1000,
+      "consoleErrors": []
+    }
+  ]
+}

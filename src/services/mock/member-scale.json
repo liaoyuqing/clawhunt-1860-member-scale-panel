@@ -1,0 +1,206 @@
+{
+  "asOf": "2026-11-01",
+  "scope": "统计口径：以企业主体为单位，软删除企业不计入；有效指会员权益生效中的企业。",
+  "kpis": [
+    {
+      "key": "certified",
+      "label": "认证会员企业数",
+      "value": 87,
+      "unit": "家",
+      "deltaPct": 6.1,
+      "polarity": "positive",
+      "hint": "资质审核通过的企业累计数"
+    },
+    {
+      "key": "active",
+      "label": "有效会员企业数",
+      "value": 64,
+      "unit": "家",
+      "deltaPct": 3.2,
+      "polarity": "positive",
+      "hint": "会员权益生效中的企业"
+    },
+    {
+      "key": "new",
+      "label": "本期新增",
+      "value": 9,
+      "unit": "家",
+      "deltaPct": 12.5,
+      "polarity": "positive",
+      "hint": "本自然月首次认证通过的企业"
+    },
+    {
+      "key": "churned",
+      "label": "本期流失",
+      "value": 5,
+      "unit": "家",
+      "deltaPct": 25,
+      "polarity": "negative",
+      "hint": "本自然月确认终止合作的企业"
+    }
+  ],
+  "lifecycle": [
+    {
+      "value": "pending",
+      "label": "待认证",
+      "count": 8
+    },
+    {
+      "value": "certified",
+      "label": "已认证",
+      "count": 10
+    },
+    {
+      "value": "active",
+      "label": "有效",
+      "count": 64
+    },
+    {
+      "value": "expiring",
+      "label": "临期",
+      "count": 6
+    },
+    {
+      "value": "expired",
+      "label": "已过期",
+      "count": 7
+    },
+    {
+      "value": "churned",
+      "label": "已流失",
+      "count": 5
+    }
+  ],
+  "trend": [
+    {
+      "month": "2025-11",
+      "active": 41
+    },
+    {
+      "month": "2025-12",
+      "active": 44
+    },
+    {
+      "month": "2026-01",
+      "active": 46
+    },
+    {
+      "month": "2026-02",
+      "active": 49
+    },
+    {
+      "month": "2026-03",
+      "active": 51
+    },
+    {
+      "month": "2026-04",
+      "active": 54
+    },
+    {
+      "month": "2026-05",
+      "active": 56
+    },
+    {
+      "month": "2026-06",
+      "active": 58
+    },
+    {
+      "month": "2026-07",
+      "active": 59
+    },
+    {
+      "month": "2026-08",
+      "active": 61
+    },
+    {
+      "month": "2026-09",
+      "active": 62
+    },
+    {
+      "month": "2026-10",
+      "active": 64
+    }
+  ],
+  "companies": [
+    {
+      "id": "c-0001",
+      "name": "星澜科技",
+      "industry": "工业软件",
+      "seats": 12,
+      "lifecycle": "active",
+      "expireAt": "2027-03-31"
+    },
+    {
+      "id": "c-0002",
+      "name": "云栖生物",
+      "industry": "生物医药",
+      "seats": 8,
+      "lifecycle": "active",
+      "expireAt": "2027-01-31"
+    },
+    {
+      "id": "c-0003",
+      "name": "恒泰智造",
+      "industry": "高端制造",
+      "seats": 20,
+      "lifecycle": "expiring",
+      "expireAt": "2026-12-15"
+    },
+    {
+      "id": "c-0004",
+      "name": "青禾新材",
+      "industry": "新材料",
+      "seats": 6,
+      "lifecycle": "pending",
+      "expireAt": "-"
+    },
+    {
+      "id": "c-0005",
+      "name": "衡远物流",
+      "industry": "供应链",
+      "seats": 15,
+      "lifecycle": "expired",
+      "expireAt": "2026-10-31"
+    },
+    {
+      "id": "c-0006",
+      "name": "沐川数据",
+      "industry": "数据服务",
+      "seats": 5,
+      "lifecycle": "active",
+      "expireAt": "2027-06-30"
+    },
+    {
+      "id": "c-0007",
+      "name": "锦禾能源",
+      "industry": "新能源",
+      "seats": 18,
+      "lifecycle": "churned",
+      "expireAt": "2026-09-30"
+    },
+    {
+      "id": "c-0008",
+      "name": "越洋跨境",
+      "industry": "跨境贸易",
+      "seats": 9,
+      "lifecycle": "certified",
+      "expireAt": "-"
+    },
+    {
+      "id": "c-0009",
+      "name": "澄明环保",
+      "industry": "环保工程",
+      "seats": 7,
+      "lifecycle": "active",
+      "expireAt": "2027-02-28"
+    },
+    {
+      "id": "c-0010",
+      "name": "博雅教育",
+      "industry": "职业教育",
+      "seats": 4,
+      "lifecycle": "expiring",
+      "expireAt": "2026-12-08"
+    }
+  ]
+}

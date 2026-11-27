@@ -1,0 +1,5 @@
+minimumReleaseAgeExclude:
+  - tdesign-react@1.19.0
+# esbuild 的 postinstall 会下载/激活二进制；在 CI 里显式允许，避免 pnpm 11 的交互式审批
+allowBuilds:
+  esbuild: true
